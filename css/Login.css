@@ -1,0 +1,122 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-size: 17px;
+	font-family: Montserrat;
+	background-image: url(../img/banner3.jpeg);
+	background-size: cover;
+}
+
+#header{
+	width: 100%;
+	height: 50px;
+	margin: 0px auto;
+	border-bottom: 1px solid #000;
+	z-index: 1;
+	background: #000; opacity: 0.7;
+}
+#header .header_left{
+	float: left;
+	width: 25%;
+	height: 50px;
+	/*border: 1px solid #000;*/
+}
+#header .header_left a{
+	display: block;
+	font-size: 35px;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	line-height: 50px;
+}
+#header .header_menu{
+	float: left;
+	width: 55%;
+	height: 50px;
+}
+#header .header_menu ul{
+	margin: 0px;
+	padding: 0px;
+}
+#header .header_menu ul li{
+	list-style: none;
+}
+#header .header_menu ul li a{
+	display: block;
+	float: left;
+	line-height: 50px;
+	text-decoration: none;
+	margin: 0px 15px 0px 20px;
+	font-size: 17px;
+	color: #fff;
+	font-weight: 300;
+}
+#header .header_right{
+	float: left;
+	width: 20%;
+	height: 50%;
+}
+#header .header_right form input[type="text"]{
+	border: 1px solid #444444;
+	height: 25px;
+	width: 120px;
+	text-indent: 10px;
+	margin: 5px 0px 0px 25px;
+}
+#header .header_right form input[type="submit"]{
+	height: 27px;
+	border: none;
+	width: 40px;
+	margin: 0px 0px 0px -2px;
+	background: #fff url(../img/search.png) no-repeat center;
+	background-size: 30px;
+	cursor: pointer;
+}
+/*//////////////////////////////////////////////////////////*/
+
+#login{
+	width: 500px;
+	height: 500px;
+	margin: 70px auto;
+	background: #000;
+	color: #ccc;
+	opacity: 0.8;
+}
+h2{
+	text-align: center;
+	font-size: 35px;
+	padding-top: 70px;
+}
+.login2{
+	width: 450px;
+	height: 200px;
+	margin: 0px auto;
+	margin-top: 80px;
+	/*	background: #fff;*/
+/*	border: 1px solid #fff;*/
+}
+.login2 form img{
+	max-width: 35px;
+	float: left;
+	margin: 10px 10px 0px 0px;
+}
+
+.login2 form input[type="text"],input[type="password"]{
+	width: 396px;
+	height: 40px;
+	text-align: left;
+	font-size: 20px;
+	margin: 5px 0px 10px 0px;
+	text-indent: 15px;
+	float: left;
+}
+.login2 form input[type="submit"]{
+	width: 450px;
+	height: 50px;
+	font-size: 25px;
+	background: #000;
+	color: #ccc;
+	margin-top: 10px;
+	cursor: pointer;
+}

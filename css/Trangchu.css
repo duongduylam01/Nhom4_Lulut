@@ -1,0 +1,443 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Montserrat;
+	font-size: 17px;
+	color: #3c3858;
+	font-weight: 300;
+}
+/*/////////////////////////////////////////////*/
+#header{
+	width: 100%;
+	height: 50px;
+	margin: 0px auto;
+	border-bottom: 1px solid #000;
+	position: fixed;
+	z-index: 1;
+	background: #000; opacity: 0.7;
+}
+#header .header_left{
+	float: left;
+	width: 25%;
+	height: 50px;
+	/*border: 1px solid #000;*/
+}
+#header .header_left a{
+	display: block;
+	font-size: 35px;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	line-height: 50px;
+}
+#header .header_menu{
+	float: left;
+	width: 55%;
+	height: 50px;
+}
+#header .header_menu ul{
+	margin: 0px;
+	padding: 0px;
+}
+#header .header_menu ul li{
+	list-style: none;
+}
+#header .header_menu ul li a{
+	display: block;
+	float: left;
+	line-height: 50px;
+	text-decoration: none;
+	margin: 0px 15px 0px 20px;
+	font-size: 17px;
+	color: #fff;
+	font-weight: 300;
+}
+#header .header_right{
+	float: left;
+	width: 20%;
+	height: 50%;
+}
+#header .header_right form input[type="text"]{
+	border: 1px solid #444444;
+	height: 25px;
+	width: 120px;
+	text-indent: 10px;
+	margin: 5px 0px 0px 25px;
+}
+#header .header_right form input[type="submit"]{
+	height: 27px;
+	border: none;
+	width: 40px;
+	margin: 0px 0px 0px -2px;
+	background: #fff url(../img/search.png) no-repeat center;
+	background-size: 30px;
+	cursor: pointer;
+}
+/*#header .header_right form a.ic{
+	color: #fff;
+	font-size: 25px;
+	line-height: 40px;
+}*/
+/*/////////////////////////////////////////////*/
+#slider{
+	margin: 0px;
+	padding: 0px;
+}
+#slider .slider-item{
+	position: absolute;
+}
+#slider .slider-item .lopphu{
+	width: 100%;
+	height: 800px;
+	background: #000;
+}
+
+#slider .slider-item img{
+	max-width: 100%;
+}
+#slider .slider-item p{
+	font-size: 70px;
+	text-align: center;
+	color: #fff;
+	margin: -510px 0px 0px 0px;
+	font-weight: 500;
+}
+/*/////////////////////////////////////////////*/
+/*/////*/
+#slider a.next{
+	width: 100px;
+	height: 100px;
+	font-size: 100px;
+	position: absolute;
+	z-index: 100;
+	top: 350px;
+	right: 0;
+	line-height: 100px;
+	background: transparent;
+	color: #fff; opacity: 0.6;
+	text-align: center;
+}
+#slider a.prev{
+	width: 100px;
+	height: 100px;
+	font-size: 100px;
+	position: absolute;
+	z-index: 100;
+	top: 350px;
+	left: 0;
+	line-height: 100px;
+	background: transparent;
+	color: #fff; opacity: 0.6;
+	text-align: center;
+}
+/*/////////////////////////////////////////////*/
+#title{
+	width: 100%;
+	height: 210px;
+	text-align: center;
+}
+#title h2{
+	font-size: 37px;
+	color: #3c3858;
+}
+#title p{
+	font-size: 20px;
+	color: #000;
+	padding: 0px 160px 0px 160px;
+	font-weight: 300;
+}
+/*/////////////////////////////////////////////*/
+#content1-active{
+	width: 1200px;
+	height: 500px;
+	margin: 0px auto;
+	display: flex;
+	flex-flow: row wrap;
+}
+#content1-active .ct1{
+	width: 400px;
+	height: 500px;
+	text-align: center;
+}
+#content1-active .ct1 a{
+	display: block;
+	text-decoration: none;
+	padding: 0px 30px 0px 30px;
+}
+#content1-active .ct1 img{
+	max-width: 250px;
+	margin: -30px 0px -40px 0px;
+}
+#content1-active .ct1 h4{
+	font-size: 18px;
+	color: #5aa3a1;
+	font-weight: 600;
+}
+/*/////////////////////////////////////////////*/
+/*/////////////////////////////////////////////*/
+#content1{
+	width: 1200px;
+	height: auto;
+	margin: 0px auto;
+	display: flex;
+	flex-flow: row wrap;
+}
+#content1 .ct1{
+	width: 400px;
+	height: 500px;
+	text-align: center;
+}
+#content1 .ct1 .frame{
+	width: 250px;
+	height: 180px;
+	margin: 0px auto;
+	/*border: 1px solid #000;*/
+}
+#content1 .ct1 a{
+	display: block;
+	text-decoration: none;
+	padding: 0px 30px 0px 30px;
+}
+#content1 .ct1 img{
+	max-height: 170px;
+	box-shadow: 0 0 20px #fff, 0 0 25px #000;
+}
+#content1 .ct1 h4{
+	font-size: 18px;
+	color: #5aa3a1;
+	font-weight: 600;
+}
+/*/////////////////////////////////////////////*/
+#bannerspace{
+	width: 100%;
+	height: auto;
+}
+#bannerspace img{
+	max-width: 100%;
+}
+/*/////////////////////////////////////////////*/
+#footer{
+	width: 100%;
+	height: 250px;
+	background: #000;
+	opacity: 0.9;
+	color: #fff;
+}
+#footer ul{
+	margin: 0px;
+	padding: 0px;
+}
+#footer ul li{
+	list-style: none;
+}
+#footer ul li a{
+	text-decoration: none;
+	display: block;
+	font-size: 20px;
+	float: left	;
+	margin: 50px 0px 0px 110px;
+	color: #ccc;
+}
+#footer p{
+	clear: left;
+	text-align: center;
+	font-size: 15px;
+	padding-top: 150px;
+}
+/*////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////*/
+/*CSS CHO Tintuc.html*/
+#bannertintuc{
+	width: 100%;
+	height: auto;
+}
+#bannertintuc img{
+	max-width: 100%;
+}
+#bannertintuc p{
+	font-size: 45px;
+	text-align: center;
+	color: #fff;
+	margin: -160px 0px 95px 0px;
+}
+/*//////////////////////*/
+#danhmuctintuc{
+	width: 1000px;
+	height: auto;
+	min-height: 500px;
+	margin: 0px auto;
+}
+#danhmuctintuc ul{
+	margin: 0px;
+	padding: 0px;
+}
+#danhmuctintuc ul li{
+	list-style: none;
+}
+/*//////////////////////*/
+#danhmuctintuc .ct1{
+	width: 1000px;
+	min-height: 300px;
+	height: auto;
+	margin: 10px 0px 10px 0px;
+}
+#danhmuctintuc .ct1 .frame1{
+	width: 350px;
+	height: 300px;
+	float: left;
+}
+#danhmuctintuc .ct1 a{
+	display: block;
+	text-decoration: none;
+	padding: 0px 30px 0px 30px;
+}
+#danhmuctintuc .ct1 .frame1 img{
+	max-width: 350px;
+	box-shadow: 0 0 20px #fff, 0 0 25px #000;
+}
+#danhmuctintuc .ct1 .frame2{
+	width: 600px;
+	height: auto;
+	min-height: 300px;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+#danhmuctintuc .ct1 .frame2 h4{
+	font-size: 18px;
+	color: #5aa3a1;
+	font-weight: 600;
+	float: left;
+	margin: 10px 30px 10px 30px;
+}
+#danhmuctintuc .ct1 .frame2 p{
+	float: left;
+	margin: 10px 30px 10px 30px;
+}
+/*////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////*/
+/*CSS CHO Chitiet.html*/
+#chitiet{
+	width: 1000px;
+	height: auto;
+	min-height: 1000px;
+	margin: 0px auto;
+	/*border: 1px solid #ccc;*/
+}
+/*////////////////*/
+#chitiet .tieude{
+	width: 700px;
+	height: auto;
+	min-height: 200px;
+	margin: 0px auto;
+/*	border: 1px solid #000;*/
+	margin-top: 150px;
+}
+#chitiet .tieude h2{
+	font-size: 45px;
+	text-align: left;
+	color: #3c4858;
+}
+#chitiet .tieude h3{
+	font-size: 18px;
+	color: #3c4858;
+	font-weight: 300;
+}
+#chitiet .tieude h3 a{
+	font-size: 18px;
+	text-align: left;
+	color: #6badac;
+	text-decoration: none;
+}
+/*////////////////*/
+#chitiet .noidung .hinhanh{
+	width: 700px;
+	height: auto;
+    margin: 0px auto;
+}
+#chitiet .noidung .hinhanh img{
+	max-width: 700px;
+}
+#chitiet .noidung .hinhanh p{
+	font-size: 18px;
+	text-align: left;
+	font-style: oblique;
+	margin: 0px 10px 0px 10px;
+}
+#chitiet .noidung{
+	width: 700px;
+	height: auto;
+	margin: 0px auto;
+	font-size: 18px;
+	line-height: 1.4;
+}
+/*////////////////*/
+#chitiet .tag{
+	width: 700px;
+	height: auto;
+	min-height: 50px;
+	margin: 0px auto;
+	/*border: 1px solid #000;*/
+}
+#chitiet .tag p{
+	float: left;
+	font-size: 15px;
+}
+#chitiet .tag span{
+	width: auto;
+	height: auto;
+	background: #6badac;
+	border-radius: 10px;
+	padding: 2px 10px 2px 10px;
+	float: left;
+	margin: 12px 10px 0px 10px;
+}
+/*////////////////*/
+#chitiet .binhluan{
+	width: 700px;
+	height: auto;
+	min-height: 300px;
+	margin: 0px auto;
+}
+#chitiet .binhluan h4.active{
+	font-size: 30px;
+    color: #6badac;
+    margin: 50px 0px 20px 0px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+#chitiet .binhluan .cmt{
+	padding: 0px 0px 0px 15px;
+	border-bottom: 1px solid #ccc;
+}
+#chitiet .binhluan .cmt p{
+	margin-top: -15px;
+}
+#chitiet .binhluan form{
+	width: 700px;
+	height: auto;
+	min-height: 200px;
+	margin: 30px 0px 20px 15px;
+}
+#chitiet .binhluan form input[type="text"]{
+	width: 300px;
+	height: 30px;
+	font-size: 15px;
+	text-indent: 10px;
+	margin: 5px 0px 5px 0px;
+	/*font-style: oblique;*/
+}
+#chitiet .binhluan form input[type="submit"]{
+	width: 165px;
+	height: 40px;
+	border-radius: 10px;
+	background: #6badac;
+	color: #fff;
+	font-size: 19px;
+	border: none;
+	cursor: pointer;
+	margin-top: 5px;
+}
